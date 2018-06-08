@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Tennis News</string>
+
+    <!-- Text to display in the list when there are no news -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings Activity String -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Tennis Settings</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_all_section_category_label</string>
+
+    <!-- Label for All topic category option [CHAR LIMIT=20] -->
+    <string name="settings_all_section_category_label">All</string>
+    <string name="settings_all_section_category_value">"All"</string>
+
+    <!-- Label for sport news [CHAR LIMIT=20] -->
+    <string name="settings_sport_label">Sport</string>
+    <string name="settings_sport_value" translatable="false">sport</string>
+
+    <!-- Label for environment news [CHAR LIMIT=20] -->
+    <string name="settings_environment_label">Environment</string>
+    <string name="settings_environment_value" translatable="false">environment</string>
+
+    <!-- Label for technology news [CHAR LIMIT=20] -->
+    <string name="settings_technology_label">Technology</string>
+    <string name="settings_technology_value" translatable="false">technology</string>
+
+</resources>
